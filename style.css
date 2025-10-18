@@ -1,0 +1,170 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    background-color:#EDEEF1;
+}
+.conteneur{
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    background-color:#EDEEF1;
+    text-align: center;
+}
+h2, p{
+    margin: 5px;
+}
+.entete{
+    width: 53%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+.entete h2{
+    color: #1c1e21;
+}
+.entete p{
+    color: #B3B3B3;
+    font-size: 17px;
+    color: #1c1e21;
+}
+hr{
+    background-color: #B3B3B3;
+    height: 1px;
+    margin-top: 20px;
+}
+.inscription{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+::placeholder{
+    font-size: 20px;
+    background-color: white;
+}
+.nom, .prenom{
+    width: 50%;
+    height: 40px;
+    border: solid;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.adresse{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.email, .password{
+    width: 97%;
+    height: 40px;
+    border: solid;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.date{
+    text-align: start;
+    margin-top: 20px;
+}
+select{
+    width: 32%;
+    height: 43px;
+    border: solid;
+    border-radius: 10px;
+    background-color: #F7F7F9;
+    font-size: 25px;
+}
+.jour{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.femme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+    border: solid;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+.genre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+label{
+    cursor: pointer;
+}
+
+button{
+    width: 95%;
+    height: 44px;
+    font-size: 27px;
+    border-radius: 10px;
+    border: solid;
+    color: white;
+    background-color: #4BBF2F;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: #1877f2;
+}
+
+@media (max-width: 768px){
+
+    .nom, .prenom{
+    width: 97%;
+    }
+
+    .inscription{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .jour{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    }
+
+    select{
+    width: 100%;
+    }
+
+    .femme{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 200px;
+    }
+
+    .genre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    }
+}
+
+@media (max-width: 320px){
+    .femme{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 150px;
+    }
+
+}
