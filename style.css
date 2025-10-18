@@ -86,10 +86,11 @@ select{
     height: 43px;
     border: solid none;
     border-radius: 10px;
-    background-color: #eeeef8;
-    font-size: 25px;
+    background-color: #EDEEF1;
+    font-size: 20px;
     border-color: #B3B3B3;
     outline-color: black;
+    padding: 10px;
 }
 .jour{
     display: flex;
