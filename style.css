@@ -9,10 +9,10 @@ body{
 }
 
 .conteneur{
-    width: 1024px;
+    width: 425px;
     display: flex;
     justify-content: center;
-    background-color:#EDEEF1;
+    background-color:#2652d7;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@ h2, p{
     margin: 5px;
 }
 .entete{
-    width: 50%;
+    /* width: 50%; */
     padding: 15px;
     background-color: white;
     border-radius: 8px;
@@ -53,7 +53,7 @@ input{
     background-color: white;
 }
 .nom, .prenom{
-    width: 50%;
+    width: 200px;
     height: 40px;
     border: solid;
     border-radius: 10px;
@@ -138,6 +138,7 @@ a{
 
     .nom, .prenom{
     width: 97%;
+    margin: auto;
     }
 
     .inscription{
@@ -164,7 +165,7 @@ a{
     }
 
     .genre{
-    width: 100%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -172,6 +173,21 @@ a{
     }
 
     .entete{
-        width: 70%;
+        width: 100%;
+    }
+
+    .conteneur{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 768px){
+    .genre{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
     }
 }
