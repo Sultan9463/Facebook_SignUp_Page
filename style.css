@@ -6,13 +6,13 @@ body{
     align-items: center;
     font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
     background-color:#EDEEF1;
+    margin: 0;
 }
 
 .conteneur{
     width: 425px;
     display: flex;
     justify-content: center;
-    background-color:#2652d7;
     text-align: center;
 }
 
@@ -21,7 +21,6 @@ h2, p{
     margin: 5px;
 }
 .entete{
-    /* width: 50%; */
     padding: 15px;
     background-color: white;
     border-radius: 8px;
