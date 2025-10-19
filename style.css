@@ -141,13 +141,13 @@ a:hover{
 @media (max-width: 768px){
 
     .nom, .prenom{
-    width: 97%;
-    margin: auto;
+        width: 97%;
+        margin: auto;
     }
 
     .inscription{
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
 
     .jour{
