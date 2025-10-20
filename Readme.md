@@ -30,6 +30,8 @@ Structuration de la page d'inscription <br>
 Gérer la responsivité avec les media queries
 ## Ci-dessus le lien de Git-pagee 
 https://sultan9463.github.io/Facebook_SignUp_Page/
+## Ci-dessus la capture d'écrain du projet
+![capture](./Capture%20d’écran%202025-10-20%20à%2001.06.07.png)
 
 
 
